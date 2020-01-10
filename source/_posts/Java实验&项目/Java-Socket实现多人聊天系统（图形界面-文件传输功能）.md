@@ -17,13 +17,13 @@ categories:
 
 GitHub地址：<https://github.com/Samven7/multichat-system>
 
+<!-- more -->
+
 ## 一、多人聊天系统
 
 ### 1.1 客户端
 
 Login.java：登录界面
-
-<!-- more -->
 
 ~~~java
 // Login.java
@@ -49,7 +49,7 @@ public class Login {
 		
 		JPanel jp1 = new JPanel();
 		JLabel headJLabel = new JLabel("登录界面");
-		headJLabel.setFont(new Font(null, 0, 35));  // 设置文本的字体类型、样式 和 大小
+		headJLabel.setFont(new Font(null, 0, 35));  // 设置文本的字体类型、样式和大小
 		jp1.add(headJLabel);
 		
 		JPanel jp2 = new JPanel();
